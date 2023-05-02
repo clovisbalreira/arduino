@@ -1,0 +1,7 @@
+﻿Nome,Quantidade,Componente
+"U1",1," Arduino Uno R3"
+"T1",1," Transistor NPN (BJT)"
+"D1",1," Diodo"
+"M1",1," Motor CC"
+"Rpot1",1,"250 kΩ Potenciômetro"
+"BAT2",1," Bateria 9V"

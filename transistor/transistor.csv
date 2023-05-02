@@ -1,0 +1,7 @@
+﻿Nome,Quantidade,Componente
+"R1",1," Fotorresistor"
+"Rpot1",1,"250 kΩ Potenciômetro"
+"D1",1,"Vermelho LED"
+"T1",1," Transistor NPN (BJT)"
+"P1",1,"5 , 5  Fonte de energia"
+"R2, R3",2,"1 kΩ Resistor"
