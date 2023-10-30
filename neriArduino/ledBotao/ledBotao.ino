@@ -8,11 +8,13 @@ void setup()
 {
   pinMode(letPin,OUTPUT);
   pinMode(botaoLigar,INPUT);
+  Serial.begin(9600);
 }
 
 void loop()
 {
   botaoPressionado = digitalRead(botaoLigar);
+  Serial.println(botaoPressionado);
   if((botaoPressionado == HIGH) && (anterior == 0)){
     if(ligar == false){
     	ligar = true;

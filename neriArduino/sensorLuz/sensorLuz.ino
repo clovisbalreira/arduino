@@ -13,10 +13,11 @@ void loop()
   luzLida = analogRead(sensorLuminosidade);
   Serial.print("luz lida: ");
   Serial.println(luzLida);
-  delay(1000);
-  if(luzLida < 512){
+  //delay(1000);
+  //if(luzLida < 512){
+    //digitalWrite(letPin, HIGH);
   	analogWrite(letPin, HIGH);
-  }else{
-  	analogWrite(letPin, LOW);
-  }
+  //}else{
+  //	analogWrite(letPin, LOW);
+  //}
 }
